@@ -1,15 +1,18 @@
 {
   "expo": {
-    "name": "pocket-wonder-world",
+    "name": "口袋奇妙世界",
     "slug": "pocket-wonder-world",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "description": "创造一个会动、会回应你的迷你世界。",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.wonderpocket.studentworld"
     },
     "android": {
+      "package": "com.wonderpocket.studentworld",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
