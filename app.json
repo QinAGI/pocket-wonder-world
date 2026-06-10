@@ -7,6 +7,9 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "description": "创造一个会动、会回应你的迷你世界。",
+    "experiments": {
+      "baseUrl": "/pocket-wonder-world"
+    },
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.wonderpocket.studentworld"

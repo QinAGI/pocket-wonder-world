@@ -32,8 +32,9 @@ jobs:
 
       - name: Build web app
         run: npx expo export --platform web --output-dir dist
-        env:
-          EXPO_BASE_URL: /pocket-wonder-world
+
+      - name: Disable Jekyll
+        run: touch dist/.nojekyll
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
